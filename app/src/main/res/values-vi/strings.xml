@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_font_picker">Chọn Font</string>
+    <string name="title_activity_main">Chế Ảnh Meme</string>
+    <string name="title_activity_item_view_detail">Chi Tiết</string>
+
+
+    <string name="app_name">Chế Ảnh Meme</string>
+    <string name="caption1">Tiêu Đề 1</string>
+    <string name="btn_new">New</string>
+    <string name="facebook_id">1436107913364801</string>
+    <string name="facebook_secret">210759bdf89666a76e1e3b164fbf9eb4</string>
+    <string name="title_activity_fbshare">Chia sẽ Facebook</string>
+
+    <!--action rectangle_button-->
+    <string name="action_settings">Cài Đặt</string>
+    <string name="action_facebook_share">Chia Sẽ</string>
+    <string name="action_done">Xong</string>
+    <string name="btn_font">Font</string>
+
+
+
+    <string-array name="tab_tiles">
+        <item name="title_tab_demo">Mới</item>
+        <item name="title_tab_stamp">Con Dấu</item>
+        <item name="title_tab_origin">Chế</item>
+        <item name="title_tab_downloaded">Gần Đây</item>
+    </string-array>
+
+    <!--alert-->
+
+    <string name="button_ok">Ok</string>
+    <string name="error_title">Lỗi</string>
+    <string name="error_network_connection">Ops! không thể kết nối tới máy chủ.</string>
+    <string name="view_empty">Chưa có hình ảnh nào</string>
+    <string name="no_network_connection">lỗi kết nối mạng</string>
+    <string name="loading_image">đang tải… , chờ tý nhé!</string>
+    <string name="open_facebook">Mở ứng dụng facebook! chờ tý nhé</string>
+    <string name="error_facebook_share">Xin lỗi, đã có lỗi trong khi chia sẽ hình!</string>
+
+    <!--admob-->
+    <string name="bottom_banner_on_home">ca-app-pub-5478067249301673/3415187148</string>
+    <string name="bottom_banner_on_detail">ca-app-pub-5478067249301673/1820702743</string>
+    <string name="bottom_banner_on_creator">ca-app-pub-5478067249301673/6250902340</string>
+    <string name="bottom_banner_on_done">ca-app-pub-5478067249301673/2739032747</string>
+
+
+</resources>

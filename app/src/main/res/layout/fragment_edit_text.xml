@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="uit.linh.ui.EditTextFragment"
+    android:orientation="vertical"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:choiceMode="singleChoice"
+        android:numColumns="10" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/abc_action_bar_overflow_padding_start_material">
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_font_size"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:indeterminate="false"
+            android:max="200"
+            android:progress="80" />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_font"
+            android:id="@+id/btn_fonts"
+            android:background="@drawable/rectangle_button"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+</LinearLayout>

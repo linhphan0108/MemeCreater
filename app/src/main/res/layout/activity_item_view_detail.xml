@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uit.linh.ui.ItemViewDetail"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_vertical|center_horizontal">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bottom_banner_on_detail" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_detail_2"
+            android:layout_gravity="top"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="@dimen/abc_action_bar_overflow_padding_end_material">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_edit_image"
+                android:src="@drawable/ic_edit"
+                android:background="@drawable/rectangle_button"
+                android:minHeight="50dp"
+                android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_end_material"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_facebook_share_image"
+                android:src="@drawable/ic_facebook"
+                android:background="@drawable/rectangle_button"
+                android:minHeight="50dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

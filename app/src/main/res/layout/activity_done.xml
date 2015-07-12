@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uit.linh.ui.Done"
+    android:orientation="vertical">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/vg_image_container"
+        android:layout_weight="0.83"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_vertical|center_horizontal">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bottom_banner_on_done" />
+    </LinearLayout>
+
+</LinearLayout>

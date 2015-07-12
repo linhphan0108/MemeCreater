@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/abc_action_bar_overflow_padding_start_material"
+    tools:context="uit.linh.ui.GroupControlFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_caption"
+        android:hint="Enter your caption here" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/abc_action_bar_overflow_padding_start_material">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Text"
+            android:id="@+id/btn_frament_edit_text"
+            android:background="@drawable/rectangle_button" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_new_caption"
+            android:text="New"
+            android:background="@drawable/rectangle_button"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/btn_clear"
+            android:background="@drawable/rectangle_button"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+</LinearLayout>

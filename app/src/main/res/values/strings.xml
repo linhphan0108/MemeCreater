@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_font_picker">Picker a font</string>
+    <string name="title_activity_main">Meme Creator</string>
+    <string name="title_activity_item_view_detail">Meme Detail</string>
+
+
+    <string name="app_name">Image Creator Online</string>
+    <string name="caption1">Your caption here</string>
+    <string name="btn_new">New</string>
+    <string name="facebook_id">1436107913364801</string>
+    <string name="facebook_secret">210759bdf89666a76e1e3b164fbf9eb4</string>
+    <string name="title_activity_fbshare">Facebook Sharing</string>
+
+    <!--action rectangle_button-->
+    <string name="action_settings">Settings</string>
+    <string name="action_facebook_share">Share</string>
+    <string name="action_done">Done</string>
+    <string name="btn_font">Font</string>
+
+
+
+    <string-array name="tab_tiles">
+        <item name="title_tab_demo">New</item>
+        <item name="title_tab_stamp">Stamps</item>
+        <item name="title_tab_origin">Origin</item>
+        <item name="title_tab_downloaded">Recently</item>
+    </string-array>
+
+    <!--alert-->
+    <string name="button_ok">Ok</string>
+    <string name="view_empty">No image here</string>
+    <string name="error_title">Error</string>
+    <string name="no_network_connection">No network connection found</string>
+    <string name="error_network_connection">Ops! There is a problem when trying connect to server.</string>
+    <string name="loading_image">Loading image… , please wait a moment!</string>
+    <string name="open_facebook">Opening facebook app! please waiting</string>
+    <string name="error_facebook_share">Sorry We had a problem when sharing your photo!</string>
+    
+    <!--admob-->
+    <string name="bottom_banner_on_home">ca-app-pub-5478067249301673/3415187148</string>
+    <string name="bottom_banner_on_detail">ca-app-pub-5478067249301673/1820702743</string>
+    <string name="bottom_banner_on_creator">ca-app-pub-5478067249301673/6250902340</string>
+    <string name="bottom_banner_on_done">ca-app-pub-5478067249301673/2739032747</string>
+
+</resources>

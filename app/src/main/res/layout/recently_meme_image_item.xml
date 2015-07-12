@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/abc_action_bar_overflow_padding_start_material">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/img_meme"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:layout_gravity="right|top"
+        android:src="@drawable/ic_delete"
+        android:background="@drawable/circle_cyan_button"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_start_material" />
+</FrameLayout>

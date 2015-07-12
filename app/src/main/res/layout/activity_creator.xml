@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <include android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_vertical|center_horizontal">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/bottom_banner_on_creator" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vg_image_container"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="top|center"
+            android:scaleType="centerInside"
+            android:background="@drawable/image_border" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/caption1"
+            android:id="@+id/txt_caption1"
+            android:textSize="50sp"
+            android:clickable="false"
+            android:background="@drawable/caption"
+            android:typeface="serif"
+            android:singleLine="false"
+            android:padding="@dimen/abc_action_bar_overflow_padding_start_material"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/fragment"
+        android:layout_marginLeft="@dimen/abc_action_bar_overflow_padding_start_material"
+        android:layout_marginRight="@dimen/abc_action_bar_overflow_padding_start_material" />
+
+</LinearLayout>
